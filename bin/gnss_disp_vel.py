@@ -100,7 +100,7 @@ print('')
 input_args = ['kanu', '-f', 'kanu_2021_122_2022_135_geod.parquet']
 # And also provide the path where all your data are stored. 
 # The Notebook will use this to set the working directory.
-path_to_data = '/scratch/gnss/kanu'
+path_to_data = 'R:/CASSANDRA/GitHub/kanu'
 
 
 # ## Identify execution mode
@@ -559,3 +559,5 @@ if do_plot:
     plt.ylabel('m/yr')
     plt.legend()
     plt.savefig('%s_v15d.png' %output_to_pre, dpi=300)
+
+
